@@ -1,0 +1,49 @@
+.container {
+    margin: auto;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+}
+
+.bold {
+    font-weight: bolder;
+    font-size: 14px;
+} 
+
+#title {
+    margin-bottom: 10px;
+}
+
+.full {
+    width: 400px;
+    outline-color: rgb(177, 175, 175);
+}
+
+.success, .error {
+    color: white;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+
+.success {
+    background: green;
+}
+
+.error {
+    background: red;
+}
+
+.submit {
+    background-color: white;
+    border-color: white;
+    padding: 7px 20px;
+    cursor: pointer;
+    width: 410px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+thead {
+    text-align: justify;
+}
